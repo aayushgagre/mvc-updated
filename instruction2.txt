@@ -1,0 +1,39 @@
+JAR packaging will create=====================
+
+--src/main/java
+--src/main/resources
+--src/test/java
+--src/test/resources
+pom.xml
+
+
+WAR packaging will create=====================
+
+--src/main/java
+--src/main/webapp
+--src/main/webapp/WEB-INF
+--src/test/java
+--src/test/resources
+pom.xml
+
+
+
+few thing to be mention
+pom.xml---contains spring-mvc dependency
+web.xml----contains dispatcherServlet
+spring.xml---contains view-resolver and mvc:annotation-driven, component-scan
+WEB-INF/pages/home.jsp contains Welcome message
+
+
+
+------------------------------------------------------------------------
+
+create model class
+product{ productId, name, description, price}
+
+set uRL/add-product
+
+GET/add-product     show a form page
+POST/add-product    accept the form values and process the data
+
+
